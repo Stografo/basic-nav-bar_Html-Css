@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body {
 	font-size: 12px;
 	font-family: sans-serif;
@@ -6,4 +10,12 @@ body {
 .ifMenu{
 	width: 100% !important;
 	height: 50px;
+}
+
+.ifFooter{
+	width: 100% !important;
+	height: 340px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 }
